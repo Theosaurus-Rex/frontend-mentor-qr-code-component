@@ -12,28 +12,47 @@
       href="images/favicon-32x32.png"
     />
     <link href="styles/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Frontend Mentor | QR code component</title>
   </head>
-  <body class="font-outfit">
-    <main>
-      <article>
+  <body class="font-outfit bg-brand-light-gray">
+    <main
+      class="flex flex-col space-y-4 items-center justify-center min-h-screen"
+    >
+      <article
+        class="bg-brand-white w-80 p-4 rounded-xl shadow-md text-center space-y-4"
+      >
         <img
           src="images/image-qr-code.png"
           alt="QR code linking to the Frontend Mentor website"
+          class="rounded-lg"
         />
-        <h1>Improve your front-end skills by building projects</h1>
-        <p>
+
+        <h1 class="text-xl text-brand-dark-blue font-bold mx-2">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="text-brand-blue-gray mx-2 pb-4">
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
       </article>
 
-      <footer>
+      <footer class="" text-brand-dark-blue>
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="text-blue-500 font-semibold"
           >Frontend Mentor</a
         >. Coded by
-        <a href="https://www.frontendmentor.io/profile/Theosaurus-Rex"
+        <a
+          href="https://www.frontendmentor.io/profile/Theosaurus-Rex"
+          class="text-blue-500 font-semibold"
           >Theo Harris</a
         >.
       </footer>
